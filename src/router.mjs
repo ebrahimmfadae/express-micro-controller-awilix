@@ -1,6 +1,5 @@
-import awilix from "awilix"
-import { container, controllerBuilder } from "./container.mjs"
 import { Router } from "express"
+import { container, controllerBuilder } from "./container.mjs"
 import * as controller from "./controller.mjs"
 
 const scope = container.createScope()
